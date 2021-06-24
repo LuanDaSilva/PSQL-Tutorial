@@ -1,0 +1,36 @@
+\c dvdrental
+/*
+SELECT
+	first_name,
+	last_name
+FROM
+	customer
+ORDER BY
+	first_name ASC;
+
+SELECT
+	first_name,
+	last_name
+FROM
+	customer
+ORDER BY
+	first_name DESC;
+
+
+SELECT
+	first_name,
+	last_name
+FROM
+	customer
+ORDER BY
+	first_name ASC,
+	last_name DESC;
+*/
+
+SELECT 
+	first_name,
+	LENGTH(first_name) AS len
+FROM
+	customer
+ORDER BY 
+	len ASC;
