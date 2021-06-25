@@ -1,5 +1,5 @@
 \c dvdrental
-/*Uncomment any parts to run it. Don't forget this in the next tutorials!TESTING SYNCHRONIZATION*/
+/*Uncomment any parts to run it. Don't forget this in the next tutorials!TESTING SYNCHRONIZATION!!!*/
 /*
 SELECT
 	first_name,
